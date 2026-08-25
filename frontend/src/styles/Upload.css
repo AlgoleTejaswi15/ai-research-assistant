@@ -1,0 +1,14 @@
+.upload-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.upload-box {
+  width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  background: white;
+  text-align: center;
+}

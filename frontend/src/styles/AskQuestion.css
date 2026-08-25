@@ -1,0 +1,75 @@
+.ask-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.ask-card {
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.ask-title {
+  text-align: center;
+  color: #1976d2;
+}
+
+.ask-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.ask-answer {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.ask-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ask-btn:hover {
+  background: #1565c0;
+}
+
+.chat-container{
+    margin-top:20px;
+}
+
+.user-message{
+
+    background:#DCF8C6;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:15px;
+
+}
+
+.ai-message{
+
+    background:#F1F0F0;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:25px;
+
+}
+
+.user-message p,
+.ai-message p{
+
+    margin-top:10px;
+    white-space:pre-wrap;
+}
