@@ -5,3 +5,4 @@ passlib[bcrypt]
 python-jose
 python-dotenv
 email-validator
+PyMuPDF==1.27.2.3
